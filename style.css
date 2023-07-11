@@ -51,6 +51,7 @@ body {
   border: 1px solid var(--color-Pink);
   background-color: white;
   color: var(--color-Pink);
+  cursor: pointer;
 }
 .huddle-header {
   font-size: 40px;
@@ -195,7 +196,16 @@ body {
 .second-button {
   margin-top: 0;
 }
+.attribution {
+  font-size: 20px;
+  padding: 1rem;
+  text-align: center;
+  line-height: 40px;
+}
 @media screen and (max-width: 600px) {
+  .huddle {
+    padding: 0 1rem;
+  }
   .huddle-navbar {
     padding: 3rem 1rem 8rem;
   }
